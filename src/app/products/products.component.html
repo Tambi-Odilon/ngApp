@@ -1,0 +1,11 @@
+<h2>Exercises</h2>
+<input type="text" [(ngModel)]="namePerson"/>
+<button (click) = "namePerson = 'Magalie'">Change person</button>
+<p>{{namePerson}}</p>
+<button (click) = "productName = 'books and pens'">{{buttonName}}</button>
+<p>{{ productName }}</p>
+
+<button (click) = "productNumber = productNumber-1">Remove product</button>
+<button (click) = "productNumber = productNumber+1">Add product</button>
+<p>{{ productNumber }}</p>
+
